@@ -12,5 +12,11 @@ public class MyClassTest {
 
         assertEquals(3, myClass.add(1,2));
     }
+    @Test
+    public void testSub(){
+        MyClass myClass= new MyClass();
+
+        assertEquals(3, myClass.sub(4,1));
+    }
 
 }
